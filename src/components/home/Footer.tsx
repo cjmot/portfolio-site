@@ -6,6 +6,9 @@ export default function Footer() {
             <div className="mx-auto flex max-w-6xl flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
                 <span>&copy; {new Date().getFullYear()} Cooper Motyer</span>
                 <div className="flex gap-5">
+                    <a href={profile.linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-slate-950">
+                        LinkedIn
+                    </a>
                     <a href={profile.github} target="_blank" rel="noopener noreferrer" className="hover:text-slate-950">
                         GitHub
                     </a>

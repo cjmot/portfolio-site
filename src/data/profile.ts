@@ -3,6 +3,7 @@ export const profile = {
     title: 'Software Engineer and Computer Science Student',
     location: 'Orem, UT',
     github: 'https://github.com/cjmot',
+    linkedin: 'https://www.linkedin.com/in/cooper-motyer-4346b8353/',
     summary:
         'I build practical software across full-stack systems, infrastructure, and developer workflows. I practice agile-minded software engineering, and I enjoy practicing software fundamentals and design patterns both at work and in personal projects.',
     about: [
