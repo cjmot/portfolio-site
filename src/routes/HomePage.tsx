@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import resumeUrl from '../../resume.pdf?url';
 import { experiences } from '../data/experiences.ts';
 import { profile } from '../data/profile.ts';
 import { projects } from '../data/projects.ts';
@@ -29,6 +30,15 @@ export default function HomePage() {
                         >
                             Experience
                         </Link>
+                        <a
+                            href={resumeUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="rounded border border-slate-300 px-5 py-3 text-sm font-semibold text-slate-800 transition hover:border-slate-950 hover:text-slate-950"
+                        >
+                            View Resume
+                            <span className="sr-only"> (opens in a new tab)</span>
+                        </a>
                     </div>
                 </div>
                 <aside className="border-l-4 border-teal-600 bg-white p-6 shadow-sm">
